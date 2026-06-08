@@ -24,6 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+						"baseHref": "host-demo",
             "outputPath": {
 							"base": "docs",
 							"browser": ""
