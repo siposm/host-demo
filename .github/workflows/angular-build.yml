@@ -35,4 +35,3 @@ jobs:
         with:
           commit_message: "Build Angular app to docs"
           file_pattern: docs
-          add_options: "-f"
