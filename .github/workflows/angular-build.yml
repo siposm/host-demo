@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Angular build futtatása
-        run: npx ng build --output-path docs --base-href /${{ github.event.repository.name }}/
+        run: npx ng build
 
       - name: .nojekyll létrehozása
         run: touch docs/.nojekyll
